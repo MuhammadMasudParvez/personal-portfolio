@@ -24,7 +24,6 @@
 }
 /* Header Section Start Here */
 .header-section{
-    /* border: 0.1px solid #fff8f3; */
     background: #fff8f3;
     background-image: url(/images/developer.png), url(/images/header_bg.png);
     background-position: top left, bottom right;
@@ -34,7 +33,7 @@
     display: flex;
     justify-content: space-between;
     margin: 0 265px;
-    /* margin-top: 50px; */
+    padding-top: 50px;
     align-items: center;
 }
 .header-section nav .logo .logo-text{
@@ -111,6 +110,109 @@
 
 /* About Section Start Here */
 
-
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 837px;
+}
+.about-section{
+    width: 1140px;
+    height: 550px;
+    border-radius: 10px;
+    background: #fff8f3;
+}
+.about-content{
+    width: 827px;
+    height: 288px;
+    margin: 130px 155px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about-content h3{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.about-content .about-desc{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.about-contact-container{
+    display: flex;
+    gap: 50px;
+}
+.single-contact p{
+    font-size: 20px;
+    color:#757575;
+    text-align: center;
+}
+.single-contact h4{
+    text-align: center;
+}
 
 /* About Section End Here */
+
+/* What I Do Section Start Here */
+
+.what-i-do-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 837px;
+}
+.what-i-do-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1140px;
+}
+.what-i-do-content h2{
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.what-i-do-content .what-i-do-desc{
+    width: 827px;
+    text-align: center;
+    color: #757575;
+    margin-bottom: 50px;
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+.skill-container .single-skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.089);
+}
+.skill-container .single-skill img{
+    width: 44px;
+    margin-bottom: 30px;
+}
+.skill-container .single-skill h4{
+    color: rgb(24, 24, 24);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.skill-container .single-skill p{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* What I Do Section End Here */
