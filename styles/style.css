@@ -1,0 +1,116 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* font-family: "Open Sans", sans-serif; */
+
+*{
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Shared Styles */
+.btn-primary{
+    padding: 18px 35px;
+    border-radius: 5px;
+    background: #fd6e0a;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.orange{
+    color: rgb(253, 110, 10);
+}
+/* Header Section Start Here */
+.header-section{
+    /* border: 0.1px solid #fff8f3; */
+    background: #fff8f3;
+    background-image: url(/images/developer.png), url(/images/header_bg.png);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+}
+.header-section nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 265px;
+    /* margin-top: 50px; */
+    align-items: center;
+}
+.header-section nav .logo .logo-text{
+    font-size: 45px;
+    font-weight: 800;
+}
+.header-section nav ul{
+    display: flex;
+    align-items: center;
+}
+.header-section nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+.header-section nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: #474747;
+}
+
+/* Header Container Start */
+
+.header-content{
+    display: flex;
+    margin: 0 265px;
+    justify-content: space-between;
+}
+
+/* Header Container Text Start */
+.header-content-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 660px;
+}
+.header-content-text h2{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+.header-content-text h1{
+    color: rgb(24, 24, 24);
+    font-size: 85px;
+    font-weight: 700;
+}
+.header-content-text p{
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.button-container{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+
+/* Header Container Text End */
+
+/* Header Content Image Start */
+
+.header-content-img .img-container{
+    margin-top: 50px;
+    margin-bottom: -6px;
+}
+
+/* Header Content Image End */
+
+/* Header Container End */
+
+/* Header Section End Here */
+
+/* About Section Start Here */
+
+
+
+/* About Section End Here */
